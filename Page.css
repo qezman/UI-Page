@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background: #FFFFFF;
+}
+
+header {
+    color: #F7FAFC;
+    text-align: center;
+    padding: 56px;
+    background: #6B46C1;
+    height: 280px;
+}
+
+.main-header {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: #F7FAFC;
+}
+
+.main-paragraph {
+    height: 64px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    opacity: 0.84;
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+
+.card-content {
+    color: #171923;
+    background: #F0EAFB;
+    text-align: center;
+    width: 400px;
+    position: absolute;
+    border-radius: 12px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.premium-pro {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 25px;
+}
+
+.price {
+    font-weight: 800;
+    font-size: 48px;
+    padding-top: 16px;
+}
+
+.bill {
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 12px;
+}
+
+.btn {
+    width: 50%;
+    background: #6B46C1;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 13px;
+    color: #F7FAFC;
+    outline: none;
+    cursor: pointer;
+    margin: 30px;
+    border-radius: 8px;
+}
+
+.sub-content {
+    color: #2D3748;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 29px;
+    background: white;
+}
+
+.tick {
+    background: #6134C4;
+    color: white;
+    border-radius: 100%;
+    padding: 2px 4px;
+    text-align: center;
+    margin-right: 6px;
+}
+
+.list-content {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    align-content: start;
+    padding-top: 24px;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 33px;
+}
+
+.foot-container {
+    position: absolute;
+    top: 450px;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.icon-text p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+svg {
+    width: 33px;
+    height: 33px;
+}
+
+#monthly {
+    width: 300px;
+}
