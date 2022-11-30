@@ -16,25 +16,36 @@ header {
     height: 280px;
 }
 
-.main-header {
+.header-text {
+    width: 366px;
+    height: 78px;
     font-weight: 800;
     font-size: 30px;
     line-height: 130%;
     letter-spacing: -0.01em;
     color: #F7FAFC;
+    text-align: start;
+    margin: auto;
+    padding-right: 25px;
 }
 
 .main-paragraph {
+    padding-right: 15px;
+    width: 381px;
     height: 64px;
     font-weight: 500;
     font-size: 18px;
     line-height: 32px;
     letter-spacing: -0.01em;
+    color: #F7FAFC;
     opacity: 0.84;
-    margin-top: 20px;
+    text-align: start;
+    margin: auto;
+    padding-top: 20px;
 }
 
 .card {
+    padding-top: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,36 +64,54 @@ header {
 }
 
 .premium-pro {
-    font-style: normal;
+    width: 162px;
     font-weight: 800;
     font-size: 24px;
     line-height: 32px;
-    margin-top: 25px;
+    text-align: center;
+    color: #171923;
+    margin: auto;
+    padding-top: 35px;
 }
 
 .price {
+    width: 126px;
     font-weight: 800;
     font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    color: #171923;
+    margin: auto;
     padding-top: 16px;
 }
 
 .bill {
+    width: 282px;
+    height: 28px;
     font-weight: 500;
     font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #171923;
+    margin: auto;
     padding-top: 12px;
 }
 
-.btn {
-    width: 50%;
-    background: #6B46C1;
+button {
+    width: 282px;
+    height: 51px;
     font-weight: 700;
     font-size: 16px;
     padding: 13px;
     color: #F7FAFC;
     outline: none;
     cursor: pointer;
-    margin: 30px;
     border-radius: 8px;
+    margin-top: 32px;
+    background: #805AD5;
+    /*margin: auto;*/
+    margin-bottom: 29px;
+    border: none;
 }
 
 .sub-content {
@@ -100,6 +129,8 @@ header {
     border-radius: 100%;
     padding: 2px 4px;
     text-align: center;
+    width: 22px;
+    height: 22px;
     margin-right: 6px;
 }
 
@@ -109,6 +140,16 @@ header {
     flex-direction: column;
     align-content: start;
     padding-top: 24px;
+    width: 368px;
+}
+
+#access {
+    width: 353px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 39px;
 }
 
 footer {
@@ -116,7 +157,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 33px;
+    margin: 50px;
 }
 
 .foot-container {
@@ -136,6 +177,10 @@ footer {
     line-height: 24px;
 }
 
+#mid-content {
+    padding: 37px 0 37px 0
+}
+
 svg {
     width: 33px;
     height: 33px;
@@ -143,4 +188,129 @@ svg {
 
 #monthly {
     width: 300px;
+}
+
+/*@media only screen and (max-width: 768px) {*/
+
+/*}*/
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .header-text {
+        width: 751px;
+        height: 62px;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: -0.01em;
+        color: #F7FAFC;
+    }
+
+    .main-paragraph {
+        width: 604px;
+        height: 32px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #F7FAFC;
+        opacity: 0.84;
+    }
+
+    main {
+        width: 994px;
+        height: 336px;
+        margin: auto;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 10px;
+    }
+
+    .card-content {
+        display: flex;
+        justify-content: center;
+        width: 994px;
+        height: 336px;
+        box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+        border-radius: 12px;
+    }
+    .left-card {
+        width: 378px;
+    }
+
+    #access {
+        width: 100%;
+        height: 56px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        color: #2D3748;
+    }
+
+    .list-content {
+        /*margin-top: 26px;*/
+    }
+
+    .tick {
+        margin-right: 26px;
+    }
+
+    .sub-content {
+        border-radius: 0 12px 12px 0;
+    }
+
+    footer {
+        bottom: 600px;
+    }
+
+    .foot-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .icon-text {
+        column-gap: 20px;
+        padding: 10px;
+    }
+
+    .text {
+        width: 190px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #support {
+        /*padding-bottom: 48px;*/
+        margin-bottom: 48px;
+    }
+    #mid-content {
+        padding: 0;
+        column-gap: 10px;
+    }
+
+    .content-two {
+        width: 140px;
+    }
+
+    #monthly {
+        width: 220px;
+    }
+
+    #third {
+        padding: 0 50px 0 50px;
+        column-gap: 10px;
+        width: 284px;
+    }
+
+    #first {
+        width: 284px;
+
+    }
 }
