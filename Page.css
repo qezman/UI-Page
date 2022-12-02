@@ -63,7 +63,7 @@ header {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.premium-pro {
+#premium-pro {
     width: 162px;
     font-weight: 800;
     font-size: 24px;
@@ -74,7 +74,7 @@ header {
     padding-top: 35px;
 }
 
-.price {
+#price {
     width: 126px;
     font-weight: 800;
     font-size: 48px;
@@ -85,7 +85,7 @@ header {
     padding-top: 16px;
 }
 
-.bill {
+#bill {
     width: 282px;
     height: 28px;
     font-weight: 500;
@@ -109,7 +109,6 @@ button {
     border-radius: 8px;
     margin-top: 32px;
     background: #805AD5;
-    /*margin: auto;*/
     margin-bottom: 29px;
     border: none;
 }
@@ -121,6 +120,7 @@ button {
     line-height: 28px;
     padding: 29px;
     background: white;
+    border-radius: 0 0 12px 12px;
 }
 
 .tick {
@@ -163,6 +163,7 @@ footer {
 .foot-container {
     position: absolute;
     top: 450px;
+    padding-bottom: 80px;
 }
 
 .icon-text {
@@ -181,9 +182,9 @@ footer {
     padding: 37px 0 37px 0
 }
 
-svg {
-    width: 33px;
+.img {
     height: 33px;
+    width: 33px;
 }
 
 #monthly {
@@ -243,17 +244,56 @@ svg {
         width: 378px;
     }
 
+    #premium-pro {
+        width: 162px;
+        height: 32px;
+        top: 314px;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #171923;
+    }
+
+    #price {
+        width: 157px;
+        height: 60px;
+        left: 329px;
+        top: 362px;
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 100%;
+        letter-spacing: -0.01em;
+        color: #171923;
+        padding-top: 16px;
+    }
+
+    #bill {
+        width: 282px;
+        height: 28px;
+        left: 266px;
+        top: 430px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        padding-top: 8px;
+    }
+
+    button {
+        width: 282px;
+        margin-top: 24px;
+    }
+
     #access {
+        margin-top: 3px;
         width: 100%;
         height: 56px;
+        left: 646px;
+        top: 304px;
         font-weight: 400;
         font-size: 18px;
         line-height: 28px;
-        color: #2D3748;
-    }
-
-    .list-content {
-        /*margin-top: 26px;*/
     }
 
     .tick {
@@ -265,17 +305,18 @@ svg {
     }
 
     footer {
-        bottom: 600px;
+        bottom: 580px;
     }
 
     .foot-container {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        column-gap: 25px;
     }
 
     .icon-text {
-        column-gap: 20px;
+        column-gap: 24px;
         padding: 10px;
     }
 
@@ -292,7 +333,7 @@ svg {
     }
     #mid-content {
         padding: 0;
-        column-gap: 10px;
+        column-gap: 24px;
     }
 
     .content-two {
@@ -305,12 +346,11 @@ svg {
 
     #third {
         padding: 0 50px 0 50px;
-        column-gap: 10px;
+        column-gap: 24px;
         width: 284px;
     }
 
     #first {
         width: 284px;
-
     }
 }
